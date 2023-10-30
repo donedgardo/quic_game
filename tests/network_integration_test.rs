@@ -1,14 +1,14 @@
 use bevy::app::{App, ScheduleRunnerPlugin};
 use bevy_quinnet::shared::ClientId;
 use bevy_quinnet::client::Client;
-use quicc_game::client::ClientPlugin;
-use quicc_game::server::{ServerData, ServerPlugin};
+use quic_game::client::ClientPlugin;
+use quic_game::server::{ServerData, ServerPlugin};
 
 #[cfg(test)]
 mod game_connection_tests {
     use super::*;
-    use quicc_game::client::ClientData;
-    use quicc_game::shared::SharedMessage;
+    use quic_game::client::ClientData;
+    use quic_game::shared::SharedMessage;
 
     #[test]
     fn it_connects_to_server() {

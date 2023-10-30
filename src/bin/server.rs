@@ -1,6 +1,6 @@
 use bevy::app::App;
 use bevy::DefaultPlugins;
-use quicc_game::server::ServerPlugin;
+use quic_game::server::ServerPlugin;
 
 fn main() {
     let mut app = App::new();

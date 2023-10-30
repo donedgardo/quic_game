@@ -1,5 +1,5 @@
 [package]
-name = "quicc_game"
+name = "quic_game"
 version = "0.1.0"
 edition = "2021"
 
